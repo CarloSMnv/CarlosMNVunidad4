@@ -1,0 +1,111 @@
+git init                  # Inicializa un nuevo repositorio Git  
+git clone <repo-url>     # Clona un repositorio desde una URL
+git status                       # Muestra el estado de los cambios  
+git add <archivo>               # Añade cambios al área de preparación  
+git commit -m "Mensaje"         # Registra cambios
+git branch                      # Lista las ramas  
+git branch <nombre-rama>       # Crea una nueva rama  
+git switch <nombre-rama>       # Cambia de rama  
+git merge <rama>               # Fusiona los cambios de una rama
+git remote -v                  # Muestra tus orígenes  
+git push <origen> <rama>      # Sube cambios a un repositorio remoto  
+git pull <origen> <rama>      # Recupera cambios sin fusionar
+git reset --hard              # Revierte el working tree al último commit  
+git diff                      # Compara dos commits, ramas o archivos  
+git clean -n                  # Muestra archivos temporales y limpia el working tree  
+git cherry-pick <hash>        # Aplica commit seleccionado a la rama  
+git rebase <rama>             # Reaplica commits sobre otra base
+
+Verifica qué archivos han cambiado:
+
+git status
+
+git add index.html
+
+Añade index.html al área de preparación:
+
+git add index.html
+
+git commit -m "Agrega página de inicio"
+
+Guarda los cambios con un mensaje claro:
+
+git commit -m "Agrega página de inicio"
+
+Trabajo en ramas
+
+git branch
+
+Muestra todas las ramas locales:
+
+git branch
+
+git branch nueva-funcionalidad
+
+Crea una nueva rama llamada nueva-funcionalidad:
+
+git branch nueva-funcionalidad
+
+git switch nueva-funcionalidad
+
+Cambia a esa rama:
+
+git switch nueva-funcionalidad
+
+git merge nueva-funcionalidad
+
+Fusiona los cambios de nueva-funcionalidad a la rama actual:
+
+git merge nueva-funcionalidad
+
+Compartir cambios
+
+git remote -v
+
+Verifica los repositorios remotos configurados:
+
+git remote -v
+
+git push origin main
+
+Sube tus cambios al repositorio remoto en la rama main:
+
+git push origin main
+
+git pull origin main
+
+Trae y fusiona cambios desde la rama main del repositorio remoto:
+
+git pull origin main
+
+Avanzado (utilidad)
+
+git reset --hard
+
+Revierte tu proyecto al último commit, eliminando cambios no guardados:
+
+git reset --hard
+
+git diff
+
+Muestra diferencias entre los archivos modificados y el último commit:
+
+git diff
+
+git clean -n
+
+Simula la eliminación de archivos no rastreados:
+
+git clean -n
+
+git cherry-pick a1b2c3d
+
+Trae un commit específico de otra rama:
+
+git cherry-pick a1b2c3d
+
+git rebase main
+
+Reaplica tus cambios sobre la última versión de main:
+
+git rebase main
