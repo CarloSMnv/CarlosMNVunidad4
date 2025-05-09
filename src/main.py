@@ -55,8 +55,8 @@ def main(page: ft.Page):
             page.update()
 
     # Campos de entrada para credenciales
-    usuario = ft.TextField(label="Usuario MySQL", value="root")
-    password = ft.TextField(label="Contraseña MySQL", password=True, value="u7b&k%A6&6/drO9ykRV0tpsPpD5[")
+    usuario = ft.TextField(label="Usuario MySQL", value="adms2")
+    password = ft.TextField(label="Contraseña MySQL", password=True, value="9ss3xa")
 
     # Campos de entrada para libros
     titulo_libro = ft.TextField(label="Título del Libro")
