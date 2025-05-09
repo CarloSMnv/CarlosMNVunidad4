@@ -1,2 +1,9 @@
-# CarlosMNVunidad4
-Repositorio para almacenar los apuntes de la Unidad 4
+# Flet app
+
+A simple Flet app.
+
+To run the app:
+
+```
+flet run [app_directory]
+```
